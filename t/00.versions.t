@@ -5,14 +5,12 @@ use warnings;
 
 # I tried 'require'-ing modules but that did not work.
 
-use Config::Tiny; # For the version #.
+use DBIx::HTML::LinkedMenus; # For the version #.
 
 use Test::More;
 
-use File::Spec;
-use File::Temp;
 use strict;
-use utf8;
+use warnings;
 
 # ----------------------
 
@@ -20,13 +18,11 @@ pass('All external modules loaded');
 
 my(@modules) = qw
 /
-	File::Spec
-	File::Temp
 	strict
-	utf8
+	warnings
 /;
 
-diag "Testing Config::Tiny V $Config::Tiny::VERSION";
+diag "Testing DBIx::HTML::LinkedMenus V $DBIx::HTML::LinkedMenus::VERSION";
 
 for my $module (@modules)
 {
