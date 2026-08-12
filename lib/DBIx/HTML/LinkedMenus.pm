@@ -312,7 +312,7 @@ __END__
 
 =head1 NAME
 
-C<DBIx::HTML::LinkedMenus> - Convert SQL to 2 linked HTML popup menus.
+DBIx::HTML::LinkedMenus - Convert SQL to 2 linked HTML popup menus.
 
 =head1 Synopsis
 
